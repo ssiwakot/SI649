@@ -62,6 +62,13 @@ hr.light{
 footer a{
     color: #d5d5d5
 }
+footer p{
+    margin-bottom: 0em;
+}
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 hr.light100{
     border-top: 1px solid #d5d5d5;
     width: 100%;
