@@ -12,6 +12,9 @@ html, body {
 .navbar{
     padding: .8rem; 
 }
+.jumbo1{
+    margin-bottom: 0em;
+}
 
 .background-img1{
     background-image: url("img/hh.jpg");
