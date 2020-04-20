@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+.navbar-brand{
+    color: #222;
+}
+.navbar{
+    padding: .8rem; 
+}
+
+.background-img1{
+    background-image: url("img/hh.jpg");
+}
+.background-img2{
+    background-image: url("img/good.jpg");
+}
+.background-img3{
+    background-image: url("img/bad.jpg");
+}
+.background-img4{
+    background-image: url("img/ugly.jpg");
+}
+
+.background-parallax {
+    min-height: 20%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+    .jumbotron{
+        padding: 2rem 0rem;
+    }
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+  }
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a{
+    color: #d5d5d5
+}
+hr.light100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
